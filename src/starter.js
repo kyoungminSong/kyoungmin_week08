@@ -96,4 +96,15 @@ d3.csv("data/temperature-anomaly-data.csv") //데이터 불러오기
       .attr("width", xLegendScale.bandwidth())
       .attr("height", 20)
       .attr("fill", (d) => colorScale(d));
+
+    legendLabels = svg
+      .selectAll("legend-labels")
+      .data(legendData)
+      .enter()
+      .append("text")
+      .attr("x", (d, i) => xLegendScale(i) + xLegendScale.bandwidth() / 2) //텍스트가 중앙에 오도록
+      .attr("y", height - margin.bottom + 65)
+      .text((d) => d3.format("0.1f")(d))
+      .attr("class", "legend-labels")
+      .style("fill", (d) => (d >= 0.5 ? "#fff" : "#111")); // 0.5보다 작으면 텍스트 흰색으로
   });
