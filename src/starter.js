@@ -7,55 +7,63 @@ import "./viz.css";
 const svg = d3.select("#svg-container").append("svg").attr("id", "svg");
 let width = parseInt(d3.select("#svg-container").style("width"));
 let height = parseInt(d3.select("#svg-container").style("height")); //너비와 높이 정의
-const margin = { top: 20, right: 10, bottom: 100, left: 10 };
-
-// scale
-const xScale = d3
-  .scaleBand()
-  .range([margin.left, width - margin.right])
-  .paddingInner(0.1); //바 차트 사이의 간격
-
-const colorScale = d3
-  .scaleSequential()
-  .domain([-0.8, 0.8])
-  .interpolator(d3.interpolatePuOr);
-
-const xLegendScale = d3
-  .scaleBand()
-  .range([width / 2 - 140, width / 2 + 140])
-  .paddingInner(0.1);
+const margin = { top: 20, right: 10, bottom: 100, left: 100 };
 
 // svg elements
 
 ////////////////////////////////////////////////////////////////////
 ////////////////////////////  Load CSV  ////////////////////////////
 // data
-let rects, legendRects, legendLabels;
+let rects, legendRects, legendLabels, unit;
 let data = [];
 let legendData;
 let xAxis;
+let yAxis;
 
-d3.csv("data/temperature-anomaly-data.csv") //데이터 불러오기
-  .then((raw_data) => {
-    // console.log(raw_data);
+const myLocation = [
+  "North America",
+  "Oceania",
+  "Europe",
+  "World",
+  "Asia",
+  "South America",
+  "Africa",
+];
 
-    //DATA PARSING
-    data = raw_data
-      .filter((d) => d.Entity === "Global")
-      .map((d) => {
-        const obj = {};
-        obj.year = parseInt(d.Year);
-        obj.avg =
-          +d["Global average temperature anomaly relative to 1961-1990"];
-        return obj;
-      });
+d3.csv("data/co-emissions-per-capita.csv") //데이터 불러오기
+  .then(function (data) {
+    console.log(data);
 
-    legendData = d3.range(
-      d3.min(data, (d) => d.avg),
-      d3.max(data, (d) => d.avg),
-      0.2
-    );
-    // console.log(legendData);
+    legendData = d3.range(0, 20, 1);
+    // (
+    //   d3.min(data, (d) => d.emissions),
+    //   d3.max(data, (d) => )
+    // );
+
+    console.log(legendData);
+
+    // scale
+
+    const xScale = d3
+      .scaleBand()
+      .range([margin.left, width - margin.right])
+      .paddingInner(0.1); //바 차트 사이의 간격
+
+    const yScale = d3
+      .scaleBand()
+      .domain(myLocation)
+      .range([height - margin.bottom, 0])
+      .padding(0.15); //바 차트 사이의 간격
+
+    const colorScale = d3
+      .scaleSequential()
+      .domain([0, 20])
+      .interpolator(d3.interpolateYlGnBu);
+
+    const xLegendScale = d3
+      .scaleBand()
+      .range([width / 2 - 200, width / 2 + 300])
+      .paddingInner(0.1);
 
     //XSCALE UPDATE
     xScale.domain(data.map((d) => d.year));
@@ -71,19 +79,30 @@ d3.csv("data/temperature-anomaly-data.csv") //데이터 불러오기
       .attr("class", "x-axis")
       .call(xAxis);
 
-    // HEATMAP
+    //YSCALE UPDATE
+    // yScale.domain(data.map((d) => d.location));
+
+    yAxis = d3.axisLeft(yScale);
+
+    svg
+      .append("g")
+      .attr("transform", `translate(${margin.left},0)`)
+      .attr("class", "y-axis")
+      .call(yAxis);
+
+    // HEATMAP //
     rects = svg
       .selectAll("rects")
       .data(data)
       .enter()
       .append("rect")
       .attr("x", (d) => xScale(d.year))
-      .attr("y", margin.top)
+      .attr("y", (d) => yScale(d.location))
       .attr("width", xScale.bandwidth())
-      .attr("height", height - margin.top - margin.bottom)
-      .attr("fill", (d) => colorScale(d.avg));
+      .attr("height", yScale.bandwidth())
+      .attr("fill", (d) => colorScale(d.emissions));
 
-    //LEGEND
+    //LEGEND//
     xLegendScale.domain(legendData.map((d, i) => i)); //i는 데이터의 순서 의미
 
     legendRects = svg
@@ -92,7 +111,7 @@ d3.csv("data/temperature-anomaly-data.csv") //데이터 불러오기
       .enter()
       .append("rect")
       .attr("x", (d, i) => xLegendScale(i))
-      .attr("y", height - margin.bottom + 50)
+      .attr("y", height - margin.bottom + 60)
       .attr("width", xLegendScale.bandwidth())
       .attr("height", 20)
       .attr("fill", (d) => colorScale(d));
@@ -103,8 +122,91 @@ d3.csv("data/temperature-anomaly-data.csv") //데이터 불러오기
       .enter()
       .append("text")
       .attr("x", (d, i) => xLegendScale(i) + xLegendScale.bandwidth() / 2) //텍스트가 중앙에 오도록
-      .attr("y", height - margin.bottom + 65)
-      .text((d) => d3.format("0.1f")(d))
+      .attr("y", height - margin.bottom + 75)
+      .text((d) => d3.format("0.0f")(d))
       .attr("class", "legend-labels")
-      .style("fill", (d) => (d <= -0.5 ? "#fff" : "#111")); // 0.5보다 작으면 텍스트 흰색으로
+      .style("fill", (d) => (d >= 16.0 ? "lightgray" : "black")); // 0.5보다 작으면 텍스트 흰색으로
+
+    // unit //
+    unit = svg
+      .append("text")
+      .text("(ton)")
+      .attr("x", xLegendScale(legendData.length - 1) + 45)
+      .attr("y", height - margin.bottom + 75)
+      .attr("fill", "gray")
+      .attr("class", "legend-labels");
   });
+
+/////moseover/////
+// const tooltip = d3
+//   .select("#svg-container")
+//   .append("div")
+//   .style("opacity", 0)
+//   .attr("class", "tooltip")
+//   .style("background-color", "black")
+//   .style("border", "solid")
+//   .style("border-width", "2px")
+//   .style("border-radius", "5px")
+//   .style("padding", "5px");
+
+// svg
+//   .selectAll("rect")
+//   .on("mouseover", function (event, d) {
+//     d3.select(this).transition().duration(100).attr("fill", "salmon");
+//     tooltip.transition().duration(200).style("opacity", 0.9);
+//     tooltip
+//       .html(`Year: ${d.year}<br/>Value: ${d.avg.toFixed(2)}`)
+//       .style("left", event.pageX + "px")
+//       .style("top", event.pageY - 28 + "px");
+//   })
+//   .on("mouseout", function (d) {
+//     d3.select(this)
+//       .transition()
+//       .duration(100)
+//       .attr("fill", (d) => colorScale(d.avg));
+//     tooltip.transition().duration(500).style("opacity", 0);
+//   });
+
+///resize///
+window.addEventListener("resize", () => {
+  //  width, height updated
+  width = parseInt(d3.select("#svg-container").style("width"));
+  height = parseInt(d3.select("#svg-container").style("height"));
+
+  //  scale updated
+  xScale.range([margin.left, width - margin.right]);
+  yScale.range([height - margin.bottom, 0]);
+  xLegendScale.range([width / 2 - 200, width / 2 + 300]);
+
+  // heatmap
+  rects
+    .attr("x", (d) => xScale(d.year))
+    .attr("y", (d) => yScale(d.location))
+    .attr("width", xScale.bandwidth())
+    .attr("height", yScale.bandwidth());
+
+  // legend
+  legendRects
+    .attr("x", (d, i) => xLegendScale(i))
+    .attr("y", height - margin.bottom + 60)
+    .attr("width", xLegendScale.bandwidth())
+    .attr("height", 20);
+
+  legendLabels
+    .attr("x", (d, i) => xLegendScale(i) + xLegendScale.bandwidth() / 2)
+    .attr("y", height - margin.bottom + 75);
+
+  //  unit
+  unit
+    .attr("x", xLegendScale(legendData.length - 1) + 50)
+    .attr("y", height - margin.bottom + 75);
+
+  //  axis updated
+  d3.select(".x-axis")
+    .attr("transform", `translate(0,${height - margin.bottom})`)
+    .call(xAxis);
+
+  d3.select(".y-axis")
+    .attr("transform", `translate(${margin.left},0)`)
+    .call(yAxis);
+});

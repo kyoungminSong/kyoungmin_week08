@@ -16,11 +16,38 @@
 }
 
 .legend-labels {
-  font-family: arial;
-  font-size: 12px;
+  font-size: 10px;
   text-anchor: middle;
 }
 
+.legend-labels unit {
+  color: white;
+}
+
 .x-axis .domain {
+  display: none;
+}
+
+.x-axis .tick line {
+  stroke-width: 0.3px;
+  stroke: white;
+}
+
+.x-axis .tick {
+  color: lightgray;
+}
+
+.y-axis .domain {
+  display: none;
+  text-anchor: middle;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.y-axis .tick {
+  color: lightgray;
+}
+
+.y-axis .tick line {
   display: none;
 }
