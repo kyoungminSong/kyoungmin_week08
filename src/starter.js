@@ -138,34 +138,31 @@ d3.csv("data/co-emissions-per-capita.csv") //데이터 불러오기
   });
 
 /////moseover/////
-// const tooltip = d3
-//   .select("#svg-container")
-//   .append("div")
-//   .style("opacity", 0)
-//   .attr("class", "tooltip")
-//   .style("background-color", "black")
-//   .style("border", "solid")
-//   .style("border-width", "2px")
-//   .style("border-radius", "5px")
-//   .style("padding", "5px");
+const tooltip = d3
+  .select("#svg-container")
+  .append("div")
+  .style("opacity", 0)
+  .attr("class", "tooltip")
+  .style("background-color", "white")
+  .style("border", "solid")
+  .style("border-width", "2px")
+  .style("padding", "5px");
 
-// svg
-//   .selectAll("rect")
-//   .on("mouseover", function (event, d) {
-//     d3.select(this).transition().duration(100).attr("fill", "salmon");
-//     tooltip.transition().duration(200).style("opacity", 0.9);
-//     tooltip
-//       .html(`Year: ${d.year}<br/>Value: ${d.avg.toFixed(2)}`)
-//       .style("left", event.pageX + "px")
-//       .style("top", event.pageY - 28 + "px");
-//   })
-//   .on("mouseout", function (d) {
-//     d3.select(this)
-//       .transition()
-//       .duration(100)
-//       .attr("fill", (d) => colorScale(d.avg));
-//     tooltip.transition().duration(500).style("opacity", 0);
-//   });
+// Three function that change the tooltip when user hover / move / leave a cell
+const mouseover = function (event, d) {
+  tooltip.style("opacity", 1);
+  d3.select(this).style("stroke", "black").style("opacity", 1);
+};
+const mousemove = function (event, d) {
+  tooltip
+    .html("The exact value of<br>this cell is: " + d.value)
+    .style("left", event.x / 2 + "px")
+    .style("top", event.y / 2 + "px");
+};
+const mouseleave = function (event, d) {
+  tooltip.style("opacity", 0);
+  d3.select(this).style("stroke", "none").style("opacity", 0.8);
+};
 
 ///resize///
 window.addEventListener("resize", () => {
