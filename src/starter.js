@@ -135,34 +135,50 @@ d3.csv("data/co-emissions-per-capita.csv") //데이터 불러오기
       .attr("y", height - margin.bottom + 75)
       .attr("fill", "gray")
       .attr("class", "legend-labels");
+
+    ///mouseover//
+    const tooltip = d3
+      .select("#svg-container")
+      .append("div")
+      .style("opacity", 0.5)
+      .attr("class", "tooltip")
+      .style("position", "absolute")
+      .style("background", "white")
+      .style("border", "solid")
+      .style("border-width", "2px")
+      .style("padding", "5px");
+
+    const mouseover = function (event, d) {
+      tooltip.style("opacity", 1);
+    };
+
+    const mousemove = function (event, d) {
+      tooltip
+        .html("The exact value of<br>this cell is: " + d.emissions)
+        .style("left", event.x / 2 + "px")
+        .style("top", event.y / 2 + "px");
+    };
+    const mouseleave = function (d) {
+      tooltip.style("opacity", 0);
+    };
   });
 
 /////moseover/////
-const tooltip = d3
-  .select("#svg-container")
-  .append("div")
-  .style("opacity", 0.5)
-  .attr("class", "tooltip")
-  .style("position", "absolute")
-  .style("background", "white")
-  .style("border", "solid")
-  .style("border-width", "2px")
-  .style("padding", "5px");
 
-const mouseover = function (event, d) {
-  tooltip.style("opacity", 1);
-  d3.select(this).style("stroke", "black").style("opacity", 1);
-};
-const mousemove = function (event, d) {
-  tooltip
-    .html("Value: ${d.emissions}<br/>")
-    .style("left", event.x / 2 + "px")
-    .style("top", event.y / 2 + "px");
-};
-const mouseleave = function (event, d) {
-  tooltip.style("opacity", 0);
-  d3.select(this).style("stroke", "none").style("opacity", 0.8);
-};
+//   const mouseover = function (event, d) {
+//   tooltip.style("opacity", 1);
+//   d3.select(this).style("stroke", "black").style("opacity", 1);
+// };
+// const mousemove = function (event, d) {
+//   tooltip
+//     .html("Value: ${d.emissions}<br/>")
+//     .style("left", event.x / 2 + "px")
+//     .style("top", event.y / 2 + "px");
+// };
+// const mouseleave = function (event, d) {
+//   tooltip.style("opacity", 0);
+//   d3.select(this).style("stroke", "none").style("opacity", 0.8);
+// };
 
 ///resize///
 window.addEventListener("resize", () => {
