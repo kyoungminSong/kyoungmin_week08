@@ -141,21 +141,21 @@ d3.csv("data/co-emissions-per-capita.csv") //데이터 불러오기
 const tooltip = d3
   .select("#svg-container")
   .append("div")
-  .style("opacity", 0)
+  .style("opacity", 0.5)
   .attr("class", "tooltip")
-  .style("background-color", "white")
+  .style("position", "absolute")
+  .style("background", "white")
   .style("border", "solid")
   .style("border-width", "2px")
   .style("padding", "5px");
 
-// Three function that change the tooltip when user hover / move / leave a cell
 const mouseover = function (event, d) {
   tooltip.style("opacity", 1);
   d3.select(this).style("stroke", "black").style("opacity", 1);
 };
 const mousemove = function (event, d) {
   tooltip
-    .html("The exact value of<br>this cell is: " + d.value)
+    .html("Value: ${d.emissions}<br/>")
     .style("left", event.x / 2 + "px")
     .style("top", event.y / 2 + "px");
 };
