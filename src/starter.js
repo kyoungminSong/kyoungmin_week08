@@ -19,28 +19,38 @@ let data = [];
 let legendData;
 let xAxis;
 let yAxis;
+let location;
 
-const myLocation = [
-  "North America",
-  "Oceania",
-  "Europe",
-  "World",
-  "Asia",
-  "South America",
-  "Africa",
-];
+// const myLocation = [
+//   "North America",
+//   "Oceania",
+//   "Europe",
+//   "World",
+//   "Asia",
+//   "South America",
+//   "Africa",
+// ];
 
 d3.csv("data/co-emissions-per-capita.csv") //데이터 불러오기
-  .then(function (data) {
-    console.log(data);
+  .then((raw_data) => {
+    // console.log(raw_data);
+    data = raw_data.map((d) => {
+      d.year = parseInt(d.year);
+      d.emissions = parseInt(d.emissions);
+      return d;
+    });
+    // console.log(data);
 
-    legendData = d3.range(0, 20, 1);
-    // (
-    //   d3.min(data, (d) => d.emissions),
-    //   d3.max(data, (d) => )
-    // );
+    location = [...new Set(data.map((d) => d.location))];
 
-    console.log(legendData);
+    // console.log(location);
+
+    legendData = d3.range(
+      d3.min(data, (d) => d.emissions),
+      d3.max(data, (d) => d.emissions)
+    );
+
+    // console.log(legendData);
 
     // scale
 
@@ -51,13 +61,13 @@ d3.csv("data/co-emissions-per-capita.csv") //데이터 불러오기
 
     const yScale = d3
       .scaleBand()
-      .domain(myLocation)
+      .domain(location)
       .range([height - margin.bottom, 0])
       .padding(0.15); //바 차트 사이의 간격
 
     const colorScale = d3
       .scaleSequential()
-      .domain([0, 20])
+      .domain([0, 16])
       .interpolator(d3.interpolateYlGnBu);
 
     const xLegendScale = d3
@@ -80,7 +90,7 @@ d3.csv("data/co-emissions-per-capita.csv") //데이터 불러오기
       .call(xAxis);
 
     //YSCALE UPDATE
-    // yScale.domain(data.map((d) => d.location));
+    yScale.domain(location);
 
     yAxis = d3.axisLeft(yScale);
 
@@ -137,48 +147,31 @@ d3.csv("data/co-emissions-per-capita.csv") //데이터 불러오기
       .attr("class", "legend-labels");
 
     ///mouseover//
-    const tooltip = d3
-      .select("#svg-container")
-      .append("div")
-      .style("opacity", 0.5)
-      .attr("class", "tooltip")
-      .style("position", "absolute")
-      .style("background", "white")
-      .style("border", "solid")
-      .style("border-width", "2px")
-      .style("padding", "5px");
+    // const tooltip = d3
+    //   .select("#svg-container")
+    //   .append("div")
+    //   .style("opacity", 0.5)
+    //   .attr("class", "tooltip")
+    //   .style("position", "absolute")
+    //   .style("background", "white")
+    //   .style("border", "solid")
+    //   .style("border-width", "2px")
+    //   .style("padding", "5px");
 
-    const mouseover = function (event, d) {
-      tooltip.style("opacity", 1);
-    };
+    // const mouseover = function (event, d) {
+    //   tooltip.style("opacity", 1);
+    // };
 
-    const mousemove = function (event, d) {
-      tooltip
-        .html("The exact value of<br>this cell is: " + d.emissions)
-        .style("left", event.x / 2 + "px")
-        .style("top", event.y / 2 + "px");
-    };
-    const mouseleave = function (d) {
-      tooltip.style("opacity", 0);
-    };
+    // const mousemove = function (event, d) {
+    //   tooltip
+    //     .html("The exact value of<br>this cell is: " + d.emissions)
+    //     .style("left", event.x / 2 + "px")
+    //     .style("top", event.y / 2 + "px");
+    // };
+    // const mouseleave = function (d) {
+    //   tooltip.style("opacity", 0);
+    // };
   });
-
-/////moseover/////
-
-//   const mouseover = function (event, d) {
-//   tooltip.style("opacity", 1);
-//   d3.select(this).style("stroke", "black").style("opacity", 1);
-// };
-// const mousemove = function (event, d) {
-//   tooltip
-//     .html("Value: ${d.emissions}<br/>")
-//     .style("left", event.x / 2 + "px")
-//     .style("top", event.y / 2 + "px");
-// };
-// const mouseleave = function (event, d) {
-//   tooltip.style("opacity", 0);
-//   d3.select(this).style("stroke", "none").style("opacity", 0.8);
-// };
 
 ///resize///
 window.addEventListener("resize", () => {
