@@ -11,7 +11,7 @@ const margin = { top: 20, right: 10, bottom: 100, left: 100 };
 
 // svg elements
 
-////////////////////////////////////////////////////////////////////
+//////////////////////////////////////  //////////////////////////////
 ////////////////////////////  Load CSV  ////////////////////////////
 // data
 let rects, legendRects, legendLabels, unit;
@@ -21,17 +21,7 @@ let xAxis;
 let yAxis;
 let location;
 
-// const myLocation = [
-//   "North America",
-//   "Oceania",
-//   "Europe",
-//   "World",
-//   "Asia",
-//   "South America",
-//   "Africa",
-// ];
-
-d3.csv("data/co-emissions-per-capita.csv") //데이터 불러오기
+d3.csv("data/final_data.csv") //데이터 불러오기
   .then((raw_data) => {
     // console.log(raw_data);
     data = raw_data.map((d) => {
@@ -52,6 +42,9 @@ d3.csv("data/co-emissions-per-capita.csv") //데이터 불러오기
 
     // console.log(legendData);
 
+    // parsing&formatting
+    // const formatColorScale = d3.format("~s");
+
     // scale
 
     const xScale = d3
@@ -67,8 +60,9 @@ d3.csv("data/co-emissions-per-capita.csv") //데이터 불러오기
 
     const colorScale = d3
       .scaleSequential()
-      .domain([0, 16])
-      .interpolator(d3.interpolateYlGnBu);
+      // .domain([d3.extent])
+      .domain([0, 2000000])
+      .interpolator(d3.interpolateGnBu);
 
     const xLegendScale = d3
       .scaleBand()
@@ -133,7 +127,7 @@ d3.csv("data/co-emissions-per-capita.csv") //데이터 불러오기
       .append("text")
       .attr("x", (d, i) => xLegendScale(i) + xLegendScale.bandwidth() / 2) //텍스트가 중앙에 오도록
       .attr("y", height - margin.bottom + 75)
-      .text((d) => d3.format("0.0f")(d))
+      .text((d) => d3.format("~s")(d))
       .attr("class", "legend-labels")
       .style("fill", (d) => (d >= 16.0 ? "lightgray" : "black")); // 0.5보다 작으면 텍스트 흰색으로
 
