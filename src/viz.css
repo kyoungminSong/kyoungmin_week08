@@ -55,3 +55,45 @@
 .tooltip {
   position: absolute;
 }
+
+/* Buttons */
+.button-container {
+  width: 98%;
+  max-width: 900px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.button-container button {
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 3px;
+}
+
+#text-desc {
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+/* .button-container button:hover {
+  background-color: rgba(0, 0, 0, 0.13);
+} */
+
+.button-clicked {
+  background-color: #111 !important;
+  color: #fff;
+}
+/* .button-released {
+  background-color: rgba(0, 0, 0, 0);
+  color: #000;
+} */

@@ -1,0 +1,1385 @@
+location,year,emissions,group
+Singapore,1850,9.548277,high
+Singapore,1851,6.825676,high
+Singapore,1852,21.520777,high
+Singapore,1853,10.1204405,high
+Singapore,1854,6.953621,high
+Singapore,1855,21.157251,high
+Singapore,1856,9.821905,high
+Singapore,1857,6.572164,high
+Singapore,1858,5.2785163,high
+Singapore,1859,13.266264,high
+Singapore,1860,7.135212,high
+Singapore,1861,5.468618,high
+Singapore,1862,4.8101783,high
+Singapore,1863,4.4700174,high
+Singapore,1864,4.23451,high
+Singapore,1865,4.0094643,high
+Singapore,1866,7.1702065,high
+Singapore,1867,4.8650255,high
+Singapore,1868,4.189859,high
+Singapore,1869,3.813079,high
+Singapore,1870,2.9903347,high
+Singapore,1871,2.484997,high
+Singapore,1872,2.1233277,high
+Singapore,1873,1.8641909,high
+Singapore,1874,1.6394266,high
+Singapore,1875,1.4397781,high
+Singapore,1876,1.2887067,high
+Singapore,1877,1.1571643,high
+Singapore,1878,1.0523372,high
+Singapore,1879,0.90690106,high
+Singapore,1880,0.9248143,high
+Singapore,1881,0.8613523,high
+Singapore,1882,0.79453737,high
+Singapore,1883,0.7518596,high
+Singapore,1884,0.7059093,high
+Singapore,1885,0.62446535,high
+Singapore,1886,0.6491692,high
+Singapore,1887,0.60682476,high
+Singapore,1888,0.5840951,high
+Singapore,1889,0.54946196,high
+Singapore,1890,0.41807827,high
+Singapore,1891,0.34470063,high
+Singapore,1892,0.28475067,high
+Singapore,1893,0.2400047,high
+Singapore,1894,0.21886118,high
+Singapore,1895,0.17992106,high
+Singapore,1896,0.16223004,high
+Singapore,1897,0.19101503,high
+Singapore,1898,0.13047433,high
+Singapore,1899,0.11103897,high
+Singapore,1900,0.14141452,high
+Singapore,1901,0.14562534,high
+Singapore,1902,0.1477994,high
+Singapore,1903,0.15195917,high
+Singapore,1904,0.16058253,high
+Singapore,1905,0.16147721,high
+Singapore,1906,0.1279775,high
+Singapore,1907,0.105773754,high
+Singapore,1908,0.12209143,high
+Singapore,1909,0.15033202,high
+Singapore,1910,0.18004769,high
+Singapore,1911,0.19402778,high
+Singapore,1912,0.20441896,high
+Singapore,1913,0.20458537,high
+Singapore,1914,0.21512999,high
+Singapore,1915,0.21844345,high
+Singapore,1916,0.21771948,high
+Singapore,1917,0.21592744,high
+Singapore,1918,0.90215135,high
+Singapore,1919,0.4277172,high
+Singapore,1920,0.18380843,high
+Singapore,1921,0.09888498,high
+Singapore,1922,0.057231233,high
+Singapore,1923,0.033107642,high
+Singapore,1924,0.019077117,high
+Singapore,1925,0.00996202,high
+Singapore,1926,0.00335771,high
+Singapore,1927,-0.000214607,high
+Singapore,1928,-0.001851742,high
+Singapore,1929,-0.004819646,high
+Singapore,1930,0.027181482,high
+Singapore,1931,0.03466221,high
+Singapore,1932,0.038448907,high
+Singapore,1933,0.042340204,high
+Singapore,1934,0.04494025,high
+Singapore,1935,0.04711824,high
+Singapore,1936,0.04801946,high
+Singapore,1937,0.048693847,high
+Singapore,1938,0.051095884,high
+Singapore,1939,0.05061523,high
+Singapore,1940,0.062360823,high
+Singapore,1941,0.0634103,high
+Singapore,1942,0.063458115,high
+Singapore,1943,0.062445052,high
+Singapore,1944,0.061390735,high
+Singapore,1945,0.0716304,high
+Singapore,1946,0.06059225,high
+Singapore,1947,0.051974036,high
+Singapore,1948,0.04781415,high
+Singapore,1949,0.053945843,high
+Singapore,1950,0.009280907,high
+Singapore,1951,-0.006986087,high
+Singapore,1952,-0.013536439,high
+Singapore,1953,-0.017064009,high
+Singapore,1954,-0.020868147,high
+Singapore,1955,-0.024655629,high
+Singapore,1956,-0.03931844,high
+Singapore,1957,-0.042114824,high
+Singapore,1958,-0.02410764,high
+Singapore,1959,-0.43378833,high
+Singapore,1960,-0.18820128,high
+Singapore,1961,-0.08753509,high
+Singapore,1962,-0.054197893,high
+Singapore,1963,-0.031099508,high
+Singapore,1964,0.007763333,high
+Singapore,1965,-0.019022493,high
+Singapore,1966,-0.004861376,high
+Singapore,1967,-0.019914206,high
+Singapore,1968,-0.018258525,high
+Singapore,1969,0.003686749,high
+Singapore,1970,-0.04094345,high
+Singapore,1971,0.011258209,high
+Singapore,1972,0.003901943,high
+Singapore,1973,-0.034572255,high
+Singapore,1974,-0.015705243,high
+Singapore,1975,-0.006318843,high
+Singapore,1976,0.009103528,high
+Singapore,1977,-0.00457167,high
+Singapore,1978,0.03885967,high
+Singapore,1979,0.014527129,high
+Singapore,1980,0.017887061,high
+Singapore,1981,0.002047403,high
+Singapore,1982,0.019085601,high
+Singapore,1983,0.011014393,high
+Singapore,1984,0.062421504,high
+Singapore,1985,0.07115233,high
+Singapore,1986,0.09164873,high
+Singapore,1987,0.09579319,high
+Singapore,1988,0.0889635,high
+Singapore,1989,0.06834946,high
+Singapore,1990,0.04684538,high
+Singapore,1991,0.035681598,high
+Singapore,1992,0.049882628,high
+Singapore,1993,0.050759856,high
+Singapore,1994,0.10809954,high
+Singapore,1995,0.07444049,high
+Singapore,1996,0.06306819,high
+Singapore,1997,0.05798059,high
+Singapore,1998,0.056491032,high
+Singapore,1999,0.04145744,high
+Singapore,2000,0.03519738,high
+Singapore,2001,0.04845219,high
+Singapore,2002,0.045896508,high
+Singapore,2003,0.03755533,high
+Singapore,2004,0.028322507,high
+Singapore,2005,0.027484355,high
+Singapore,2006,0.021772088,high
+Singapore,2007,0.024781484,high
+Singapore,2008,0.02747392,high
+Singapore,2009,0.028744815,high
+Singapore,2010,0.02929165,high
+Singapore,2011,0.039044917,high
+Singapore,2012,0.03356225,high
+Singapore,2013,0.021356365,high
+Singapore,2014,0.0532646,high
+Singapore,2015,0.021380823,high
+Singapore,2016,0.015869813,high
+Singapore,2017,0.022386387,high
+Singapore,2018,0.022181071,high
+Singapore,2019,0.02824319,high
+Singapore,2020,0.030788178,high
+Singapore,2021,0.03254456,high
+Singapore,2022,0.033643596,high
+United States,1850,34.180244,high
+United States,1851,35.680546,high
+United States,1852,35.81484,high
+United States,1853,36.505753,high
+United States,1854,36.556812,high
+United States,1855,35.996666,high
+United States,1856,35.57065,high
+United States,1857,35.444725,high
+United States,1858,35.348022,high
+United States,1859,35.334286,high
+United States,1860,30.621532,high
+United States,1861,27.213934,high
+United States,1862,26.25357,high
+United States,1863,25.376406,high
+United States,1864,24.015156,high
+United States,1865,22.561436,high
+United States,1866,21.594347,high
+United States,1867,21.07202,high
+United States,1868,20.198717,high
+United States,1869,19.096014,high
+United States,1870,27.55579,high
+United States,1871,30.333172,high
+United States,1872,31.568766,high
+United States,1873,32.848484,high
+United States,1874,33.662327,high
+United States,1875,33.97079,high
+United States,1876,34.16912,high
+United States,1877,34.615437,high
+United States,1878,34.902195,high
+United States,1879,35.234104,high
+United States,1880,31.039385,high
+United States,1881,28.61797,high
+United States,1882,27.909525,high
+United States,1883,27.438257,high
+United States,1884,26.43201,high
+United States,1885,25.49058,high
+United States,1886,24.870922,high
+United States,1887,24.560085,high
+United States,1888,23.78614,high
+United States,1889,22.922537,high
+United States,1890,23.901535,high
+United States,1891,23.765953,high
+United States,1892,23.249083,high
+United States,1893,23.330488,high
+United States,1894,22.970716,high
+United States,1895,22.496136,high
+United States,1896,22.298416,high
+United States,1897,22.126625,high
+United States,1898,22.030666,high
+United States,1899,21.932627,high
+United States,1900,20.420107,high
+United States,1901,19.507532,high
+United States,1902,19.119642,high
+United States,1903,18.442911,high
+United States,1904,18.282543,high
+United States,1905,17.745548,high
+United States,1906,17.227291,high
+United States,1907,16.944983,high
+United States,1908,16.61537,high
+United States,1909,16.415676,high
+United States,1910,15.281102,high
+United States,1911,14.747523,high
+United States,1912,13.8343935,high
+United States,1913,13.586707,high
+United States,1914,13.449404,high
+United States,1915,12.978178,high
+United States,1916,12.576409,high
+United States,1917,12.339676,high
+United States,1918,12.212578,high
+United States,1919,11.83109,high
+United States,1920,11.701931,high
+United States,1921,11.635949,high
+United States,1922,11.228537,high
+United States,1923,10.810299,high
+United States,1924,10.400195,high
+United States,1925,10.244287,high
+United States,1926,9.737539,high
+United States,1927,9.323161,high
+United States,1928,8.957384,high
+United States,1929,8.613547,high
+United States,1930,7.545991,high
+United States,1931,7.0711703,high
+United States,1932,6.4682474,high
+United States,1933,6.0465317,high
+United States,1934,5.789709,high
+United States,1935,5.3249607,high
+United States,1936,5.090698,high
+United States,1937,4.6959543,high
+United States,1938,4.462665,high
+United States,1939,4.1717596,high
+United States,1940,4.68335,high
+United States,1941,4.818644,high
+United States,1942,4.81991,high
+United States,1943,4.7804723,high
+United States,1944,4.7899036,high
+United States,1945,4.7095203,high
+United States,1946,4.661085,high
+United States,1947,4.5681458,high
+United States,1948,4.494659,high
+United States,1949,4.0962076,high
+United States,1950,3.2494652,high
+United States,1951,2.7992835,high
+United States,1952,2.4201896,high
+United States,1953,2.2224674,high
+United States,1954,2.1610682,high
+United States,1955,2.026234,high
+United States,1956,1.9114691,high
+United States,1957,1.759153,high
+United States,1958,1.5851761,high
+United States,1959,1.1190975,high
+United States,1960,1.0811895,high
+United States,1961,0.38775545,high
+United States,1962,1.2360963,high
+United States,1963,0.59173113,high
+United States,1964,0.43222716,high
+United States,1965,0.264351,high
+United States,1966,0.19252148,high
+United States,1967,2.497651,high
+United States,1968,4.0640836,high
+United States,1969,2.2393644,high
+United States,1970,1.6257517,high
+United States,1971,1.3302945,high
+United States,1972,1.1273537,high
+United States,1973,0.94583315,high
+United States,1974,0.95286787,high
+United States,1975,0.87992775,high
+United States,1976,0.9181932,high
+United States,1977,1.5295153,high
+United States,1978,1.1597445,high
+United States,1979,1.0725913,high
+United States,1980,1.1907867,high
+United States,1981,1.1617424,high
+United States,1982,1.1137512,high
+United States,1983,1.160571,high
+United States,1984,1.1870335,high
+United States,1985,1.2184772,high
+United States,1986,0.9512674,high
+United States,1987,1.0634364,high
+United States,1988,1.1251926,high
+United States,1989,1.1133634,high
+United States,1990,1.165918,high
+United States,1991,0.94225556,high
+United States,1992,0.70413554,high
+United States,1993,0.637045,high
+United States,1994,0.8226001,high
+United States,1995,0.37253642,high
+United States,1996,0.29820904,high
+United States,1997,0.37829968,high
+United States,1998,0.4091536,high
+United States,1999,0.5434594,high
+United States,2000,0.48734522,high
+United States,2001,0.15009797,high
+United States,2002,0.017348932,high
+United States,2003,0.22030193,high
+United States,2004,-0.0635358,high
+United States,2005,0.1493864,high
+United States,2006,-0.12661615,high
+United States,2007,-0.1779345,high
+United States,2008,-0.008694384,high
+United States,2009,-0.16182145,high
+United States,2010,0.025314078,high
+United States,2011,-0.25270972,high
+United States,2012,0.08620379,high
+United States,2013,-0.05461035,high
+United States,2014,0.14400938,high
+United States,2015,0.080161005,high
+United States,2016,0.2072932,high
+United States,2017,0.44002852,high
+United States,2018,0.3260599,high
+United States,2019,0.33548942,high
+United States,2020,0.34151506,high
+United States,2021,0.37862456,high
+United States,2022,0.4190179,high
+Canada,1850,29.201311,high
+Canada,1851,28.353357,high
+Canada,1852,31.638083,high
+Canada,1853,32.564552,high
+Canada,1854,31.108356,high
+Canada,1855,31.424208,high
+Canada,1856,31.074713,high
+Canada,1857,33.31226,high
+Canada,1858,32.460197,high
+Canada,1859,33.34492,high
+Canada,1860,35.22829,high
+Canada,1861,35.75882,high
+Canada,1862,35.149235,high
+Canada,1863,32.981346,high
+Canada,1864,34.9226,high
+Canada,1865,33.78866,high
+Canada,1866,37.560207,high
+Canada,1867,38.229572,high
+Canada,1868,38.048584,high
+Canada,1869,38.011425,high
+Canada,1870,35.552834,high
+Canada,1871,34.36024,high
+Canada,1872,33.154922,high
+Canada,1873,33.6763,high
+Canada,1874,33.02472,high
+Canada,1875,31.145128,high
+Canada,1876,31.483782,high
+Canada,1877,31.492172,high
+Canada,1878,31.38507,high
+Canada,1879,30.761398,high
+Canada,1880,30.81428,high
+Canada,1881,29.64648,high
+Canada,1882,30.512136,high
+Canada,1883,29.729681,high
+Canada,1884,30.795677,high
+Canada,1885,30.57095,high
+Canada,1886,31.813835,high
+Canada,1887,31.781889,high
+Canada,1888,31.897175,high
+Canada,1889,31.836658,high
+Canada,1890,29.064152,high
+Canada,1891,26.910433,high
+Canada,1892,26.290712,high
+Canada,1893,25.934225,high
+Canada,1894,27.13525,high
+Canada,1895,26.720316,high
+Canada,1896,26.98268,high
+Canada,1897,25.125027,high
+Canada,1898,24.938644,high
+Canada,1899,23.741495,high
+Canada,1900,34.748566,high
+Canada,1901,38.060776,high
+Canada,1902,40.340607,high
+Canada,1903,41.700626,high
+Canada,1904,43.08649,high
+Canada,1905,44.019585,high
+Canada,1906,44.75954,high
+Canada,1907,44.917168,high
+Canada,1908,45.013577,high
+Canada,1909,46.17977,high
+Canada,1910,46.704468,high
+Canada,1911,46.796047,high
+Canada,1912,46.518238,high
+Canada,1913,46.641544,high
+Canada,1914,46.704124,high
+Canada,1915,47.0277,high
+Canada,1916,46.810802,high
+Canada,1917,46.29121,high
+Canada,1918,46.78808,high
+Canada,1919,45.989433,high
+Canada,1920,42.381634,high
+Canada,1921,40.113453,high
+Canada,1922,38.918365,high
+Canada,1923,38.32753,high
+Canada,1924,36.856876,high
+Canada,1925,36.039967,high
+Canada,1926,35.23733,high
+Canada,1927,34.600235,high
+Canada,1928,33.533585,high
+Canada,1929,32.734097,high
+Canada,1930,33.4527,high
+Canada,1931,33.700535,high
+Canada,1932,33.18851,high
+Canada,1933,33.0897,high
+Canada,1934,33.02817,high
+Canada,1935,33.100487,high
+Canada,1936,32.68269,high
+Canada,1937,31.3521,high
+Canada,1938,31.285759,high
+Canada,1939,31.354555,high
+Canada,1940,28.982979,high
+Canada,1941,27.937576,high
+Canada,1942,27.470312,high
+Canada,1943,26.559887,high
+Canada,1944,26.119263,high
+Canada,1945,25.495329,high
+Canada,1946,25.330692,high
+Canada,1947,24.432142,high
+Canada,1948,23.195889,high
+Canada,1949,22.676716,high
+Canada,1950,26.155062,high
+Canada,1951,26.012247,high
+Canada,1952,25.969849,high
+Canada,1953,25.650785,high
+Canada,1954,25.416971,high
+Canada,1955,25.435032,high
+Canada,1956,25.002941,high
+Canada,1957,24.821335,high
+Canada,1958,24.725864,high
+Canada,1959,24.36442,high
+Canada,1960,20.584711,high
+Canada,1961,19.49487,high
+Canada,1962,18.448038,high
+Canada,1963,18.220184,high
+Canada,1964,17.58755,high
+Canada,1965,16.266802,high
+Canada,1966,14.593303,high
+Canada,1967,13.843172,high
+Canada,1968,13.01189,high
+Canada,1969,12.308735,high
+Canada,1970,11.8435135,high
+Canada,1971,11.726679,high
+Canada,1972,11.203883,high
+Canada,1973,10.885505,high
+Canada,1974,10.537272,high
+Canada,1975,10.168856,high
+Canada,1976,10.536266,high
+Canada,1977,10.832292,high
+Canada,1978,10.90091,high
+Canada,1979,10.623245,high
+Canada,1980,10.659429,high
+Canada,1981,10.38158,high
+Canada,1982,9.804823,high
+Canada,1983,9.457587,high
+Canada,1984,10.000202,high
+Canada,1985,9.924026,high
+Canada,1986,9.667763,high
+Canada,1987,9.453621,high
+Canada,1988,9.361374,high
+Canada,1989,9.026269,high
+Canada,1990,8.678254,high
+Canada,1991,8.082675,high
+Canada,1992,8.062624,high
+Canada,1993,7.9311843,high
+Canada,1994,7.912174,high
+Canada,1995,7.886592,high
+Canada,1996,7.787208,high
+Canada,1997,7.9323716,high
+Canada,1998,7.704745,high
+Canada,1999,7.536771,high
+Canada,2000,7.478628,high
+Canada,2001,8.6683035,high
+Canada,2002,7.3285003,high
+Canada,2003,6.7605824,high
+Canada,2004,6.8466344,high
+Canada,2005,7.2118874,high
+Canada,2006,5.6987176,high
+Canada,2007,5.087747,high
+Canada,2008,4.168493,high
+Canada,2009,3.3081403,high
+Canada,2010,2.8220623,high
+Canada,2011,3.3957853,high
+Canada,2012,3.337449,high
+Canada,2013,3.4864104,high
+Canada,2014,3.744551,high
+Canada,2015,4.1289864,high
+Canada,2016,3.2359219,high
+Canada,2017,4.246491,high
+Canada,2018,3.692456,high
+Canada,2019,3.4627268,high
+Canada,2020,3.2419195,high
+Canada,2021,3.1044023,high
+Canada,2022,3.0655222,high
+New Zealand,1850,141.12859,high
+New Zealand,1851,125.55495,high
+New Zealand,1852,113.08731,high
+New Zealand,1853,104.51941,high
+New Zealand,1854,94.19612,high
+New Zealand,1855,83.78627,high
+New Zealand,1856,80.6082,high
+New Zealand,1857,72.190895,high
+New Zealand,1858,71.343994,high
+New Zealand,1859,64.384254,high
+New Zealand,1860,63.984592,high
+New Zealand,1861,62.470043,high
+New Zealand,1862,58.28778,high
+New Zealand,1863,53.880264,high
+New Zealand,1864,50.22002,high
+New Zealand,1865,46.83343,high
+New Zealand,1866,41.996975,high
+New Zealand,1867,39.5843,high
+New Zealand,1868,37.570972,high
+New Zealand,1869,35.83032,high
+New Zealand,1870,33.891937,high
+New Zealand,1871,33.265224,high
+New Zealand,1872,31.47509,high
+New Zealand,1873,30.792274,high
+New Zealand,1874,28.977203,high
+New Zealand,1875,27.187271,high
+New Zealand,1876,26.365107,high
+New Zealand,1877,25.090025,high
+New Zealand,1878,23.727959,high
+New Zealand,1879,22.237272,high
+New Zealand,1880,29.526863,high
+New Zealand,1881,31.006788,high
+New Zealand,1882,31.557676,high
+New Zealand,1883,31.83906,high
+New Zealand,1884,32.030357,high
+New Zealand,1885,32.8887,high
+New Zealand,1886,32.474762,high
+New Zealand,1887,32.02483,high
+New Zealand,1888,30.929962,high
+New Zealand,1889,30.909443,high
+New Zealand,1890,33.39432,high
+New Zealand,1891,33.229355,high
+New Zealand,1892,33.487045,high
+New Zealand,1893,33.58781,high
+New Zealand,1894,33.393482,high
+New Zealand,1895,33.424847,high
+New Zealand,1896,33.936844,high
+New Zealand,1897,33.39401,high
+New Zealand,1898,32.795334,high
+New Zealand,1899,33.080128,high
+New Zealand,1900,31.448715,high
+New Zealand,1901,30.705746,high
+New Zealand,1902,29.931229,high
+New Zealand,1903,28.809141,high
+New Zealand,1904,28.217728,high
+New Zealand,1905,27.649973,high
+New Zealand,1906,27.211893,high
+New Zealand,1907,26.16538,high
+New Zealand,1908,25.917234,high
+New Zealand,1909,25.437525,high
+New Zealand,1910,27.293854,high
+New Zealand,1911,27.697206,high
+New Zealand,1912,27.724766,high
+New Zealand,1913,27.611694,high
+New Zealand,1914,27.772623,high
+New Zealand,1915,27.4473,high
+New Zealand,1916,27.073719,high
+New Zealand,1917,27.175606,high
+New Zealand,1918,27.157738,high
+New Zealand,1919,26.744463,high
+New Zealand,1920,26.89958,high
+New Zealand,1921,26.734213,high
+New Zealand,1922,26.647182,high
+New Zealand,1923,26.387302,high
+New Zealand,1924,25.53361,high
+New Zealand,1925,24.931816,high
+New Zealand,1926,24.87862,high
+New Zealand,1927,24.582964,high
+New Zealand,1928,24.094112,high
+New Zealand,1929,24.31601,high
+New Zealand,1930,24.128504,high
+New Zealand,1931,23.907454,high
+New Zealand,1932,23.63668,high
+New Zealand,1933,23.720118,high
+New Zealand,1934,23.588694,high
+New Zealand,1935,23.640785,high
+New Zealand,1936,23.548061,high
+New Zealand,1937,23.5055,high
+New Zealand,1938,23.405804,high
+New Zealand,1939,22.954548,high
+New Zealand,1940,23.146544,high
+New Zealand,1941,23.273512,high
+New Zealand,1942,22.944105,high
+New Zealand,1943,22.71126,high
+New Zealand,1944,22.581642,high
+New Zealand,1945,22.296978,high
+New Zealand,1946,22.286993,high
+New Zealand,1947,22.217264,high
+New Zealand,1948,21.62425,high
+New Zealand,1949,21.400118,high
+New Zealand,1950,25.472723,high
+New Zealand,1951,27.791124,high
+New Zealand,1952,28.76607,high
+New Zealand,1953,29.16804,high
+New Zealand,1954,29.382673,high
+New Zealand,1955,29.468105,high
+New Zealand,1956,29.491377,high
+New Zealand,1957,29.214731,high
+New Zealand,1958,28.81571,high
+New Zealand,1959,29.264416,high
+New Zealand,1960,18.621197,high
+New Zealand,1961,18.515306,high
+New Zealand,1962,15.805413,high
+New Zealand,1963,13.902497,high
+New Zealand,1964,11.902779,high
+New Zealand,1965,10.777343,high
+New Zealand,1966,10.266852,high
+New Zealand,1967,8.748038,high
+New Zealand,1968,8.188138,high
+New Zealand,1969,7.504499,high
+New Zealand,1970,7.202013,high
+New Zealand,1971,15.900792,high
+New Zealand,1972,7.517941,high
+New Zealand,1973,6.466806,high
+New Zealand,1974,14.568574,high
+New Zealand,1975,15.255242,high
+New Zealand,1976,7.2822585,high
+New Zealand,1977,10.940075,high
+New Zealand,1978,6.185816,high
+New Zealand,1979,8.290015,high
+New Zealand,1980,20.160332,high
+New Zealand,1981,7.079915,high
+New Zealand,1982,6.106346,high
+New Zealand,1983,4.930319,high
+New Zealand,1984,3.9470782,high
+New Zealand,1985,5.8442774,high
+New Zealand,1986,4.6450458,high
+New Zealand,1987,3.1102118,high
+New Zealand,1988,3.0753024,high
+New Zealand,1989,4.414183,high
+New Zealand,1990,0.6876252,high
+New Zealand,1991,-1.2998148,high
+New Zealand,1992,-1.9092056,high
+New Zealand,1993,-2.883145,high
+New Zealand,1994,-2.544425,high
+New Zealand,1995,-2.143409,high
+New Zealand,1996,-1.5001384,high
+New Zealand,1997,-0.7018639,high
+New Zealand,1998,0.53760123,high
+New Zealand,1999,4.305967,high
+New Zealand,2000,2.8838108,high
+New Zealand,2001,-7.033894,high
+New Zealand,2002,-6.31726,high
+New Zealand,2003,-4.901106,high
+New Zealand,2004,-4.957675,high
+New Zealand,2005,-4.975173,high
+New Zealand,2006,-3.1068544,high
+New Zealand,2007,-3.436127,high
+New Zealand,2008,-1.8362508,high
+New Zealand,2009,-2.3730469,high
+New Zealand,2010,-1.8705908,high
+New Zealand,2011,-1.3162229,high
+New Zealand,2012,-1.0237933,high
+New Zealand,2013,-0.14485122,high
+New Zealand,2014,-0.06942139,high
+New Zealand,2015,-0.19122979,high
+New Zealand,2016,-0.127955,high
+New Zealand,2017,0.33852753,high
+New Zealand,2018,0.40017903,high
+New Zealand,2019,0.5408409,high
+New Zealand,2020,0.54436624,high
+New Zealand,2021,0.50203013,high
+New Zealand,2022,0.49471486,high
+Bhutan,1850,1.5155556,low
+Bhutan,1851,3.541259,low
+Bhutan,1852,1.8588871,low
+Bhutan,1853,1.9598453,low
+Bhutan,1854,2.175954,low
+Bhutan,1855,1.7002386,low
+Bhutan,1856,0.41987908,low
+Bhutan,1857,-0.8710153,low
+Bhutan,1858,1.5153006,low
+Bhutan,1859,1.7243059,low
+Bhutan,1860,2.3368363,low
+Bhutan,1861,2.761652,low
+Bhutan,1862,3.0794704,low
+Bhutan,1863,2.7675636,low
+Bhutan,1864,4.98357,low
+Bhutan,1865,4.997019,low
+Bhutan,1866,5.425322,low
+Bhutan,1867,5.581587,low
+Bhutan,1868,3.8201845,low
+Bhutan,1869,2.6382399,low
+Bhutan,1870,3.1198049,low
+Bhutan,1871,3.1453118,low
+Bhutan,1872,4.325548,low
+Bhutan,1873,4.3842254,low
+Bhutan,1874,0.91243064,low
+Bhutan,1875,3.5803766,low
+Bhutan,1876,5.01444,low
+Bhutan,1877,5.033784,low
+Bhutan,1878,4.7810326,low
+Bhutan,1879,4.200368,low
+Bhutan,1880,4.816122,low
+Bhutan,1881,3.982837,low
+Bhutan,1882,2.9776468,low
+Bhutan,1883,6.044868,low
+Bhutan,1884,5.41575,low
+Bhutan,1885,5.3093596,low
+Bhutan,1886,4.1096807,low
+Bhutan,1887,3.957786,low
+Bhutan,1888,4.6322627,low
+Bhutan,1889,5.311104,low
+Bhutan,1890,6.2966766,low
+Bhutan,1891,5.9095845,low
+Bhutan,1892,7.8656917,low
+Bhutan,1893,5.1612043,low
+Bhutan,1894,6.633877,low
+Bhutan,1895,7.073278,low
+Bhutan,1896,5.6879306,low
+Bhutan,1897,8.01364,low
+Bhutan,1898,6.828491,low
+Bhutan,1899,5.4932084,low
+Bhutan,1900,6.4766207,low
+Bhutan,1901,6.9916883,low
+Bhutan,1902,6.4111896,low
+Bhutan,1903,6.903638,low
+Bhutan,1904,7.00449,low
+Bhutan,1905,7.7394915,low
+Bhutan,1906,7.526652,low
+Bhutan,1907,6.970823,low
+Bhutan,1908,5.6666126,low
+Bhutan,1909,7.6880193,low
+Bhutan,1910,9.13138,low
+Bhutan,1911,9.809957,low
+Bhutan,1912,9.759422,low
+Bhutan,1913,10.569761,low
+Bhutan,1914,10.494167,low
+Bhutan,1915,10.803291,low
+Bhutan,1916,10.542831,low
+Bhutan,1917,11.016892,low
+Bhutan,1918,10.622703,low
+Bhutan,1919,10.067341,low
+Bhutan,1920,11.132196,low
+Bhutan,1921,8.03547,low
+Bhutan,1922,13.12161,low
+Bhutan,1923,9.195748,low
+Bhutan,1924,12.162119,low
+Bhutan,1925,12.587549,low
+Bhutan,1926,10.375765,low
+Bhutan,1927,11.086898,low
+Bhutan,1928,12.587549,low
+Bhutan,1929,12.398122,low
+Bhutan,1930,17.532116,low
+Bhutan,1931,16.403788,low
+Bhutan,1932,17.02319,low
+Bhutan,1933,18.966879,low
+Bhutan,1934,16.55033,low
+Bhutan,1935,17.662329,low
+Bhutan,1936,21.275932,low
+Bhutan,1937,23.27131,low
+Bhutan,1938,21.43128,low
+Bhutan,1939,22.346336,low
+Bhutan,1940,23.525488,low
+Bhutan,1941,23.262249,low
+Bhutan,1942,25.743736,low
+Bhutan,1943,27.639975,low
+Bhutan,1944,31.801905,low
+Bhutan,1945,34.260384,low
+Bhutan,1946,34.688396,low
+Bhutan,1947,39.635292,low
+Bhutan,1948,40.0731,low
+Bhutan,1949,41.177765,low
+Bhutan,1950,56.234028,low
+Bhutan,1951,49.131836,low
+Bhutan,1952,54.035007,low
+Bhutan,1953,51.445892,low
+Bhutan,1954,52.697243,low
+Bhutan,1955,52.847332,low
+Bhutan,1956,55.564526,low
+Bhutan,1957,55.400875,low
+Bhutan,1958,57.259922,low
+Bhutan,1959,94.370056,low
+Bhutan,1960,55.122353,low
+Bhutan,1961,57.52556,low
+Bhutan,1962,48.842766,low
+Bhutan,1963,49.907787,low
+Bhutan,1964,49.549553,low
+Bhutan,1965,47.8686,low
+Bhutan,1966,47.26965,low
+Bhutan,1967,46.436234,low
+Bhutan,1968,41.291695,low
+Bhutan,1969,52.356155,low
+Bhutan,1970,42.938282,low
+Bhutan,1971,43.796455,low
+Bhutan,1972,42.509552,low
+Bhutan,1973,44.548985,low
+Bhutan,1974,42.236088,low
+Bhutan,1975,40.04689,low
+Bhutan,1976,35.164764,low
+Bhutan,1977,34.713177,low
+Bhutan,1978,35.093346,low
+Bhutan,1979,36.286694,low
+Bhutan,1980,33.67997,low
+Bhutan,1981,32.65861,low
+Bhutan,1982,36.383396,low
+Bhutan,1983,37.387836,low
+Bhutan,1984,28.672352,low
+Bhutan,1985,25.878284,low
+Bhutan,1986,31.331963,low
+Bhutan,1987,23.848259,low
+Bhutan,1988,22.645514,low
+Bhutan,1989,23.030502,low
+Bhutan,1990,35.33934,low
+Bhutan,1991,24.089428,low
+Bhutan,1992,22.080465,low
+Bhutan,1993,22.008762,low
+Bhutan,1994,35.936676,low
+Bhutan,1995,23.292048,low
+Bhutan,1996,20.279474,low
+Bhutan,1997,18.638882,low
+Bhutan,1998,19.539673,low
+Bhutan,1999,14.946436,low
+Bhutan,2000,17.189121,low
+Bhutan,2001,14.735372,low
+Bhutan,2002,18.8858,low
+Bhutan,2003,28.554474,low
+Bhutan,2004,18.38722,low
+Bhutan,2005,12.766598,low
+Bhutan,2006,11.911008,low
+Bhutan,2007,14.614794,low
+Bhutan,2008,17.656595,low
+Bhutan,2009,15.108442,low
+Bhutan,2010,17.519165,low
+Bhutan,2011,14.580381,low
+Bhutan,2012,14.016355,low
+Bhutan,2013,12.874604,low
+Bhutan,2014,10.449357,low
+Bhutan,2015,10.165268,low
+Bhutan,2016,9.667502,low
+Bhutan,2017,9.659813,low
+Bhutan,2018,8.529609,low
+Bhutan,2019,8.533739,low
+Bhutan,2020,8.20064,low
+Bhutan,2021,8.279367,low
+Bhutan,2022,7.539779,low
+Tanzania,1850,1.6080105,low
+Tanzania,1851,1.4336324,low
+Tanzania,1852,1.364439,low
+Tanzania,1853,1.3208611,low
+Tanzania,1854,1.3635172,low
+Tanzania,1855,1.3350403,low
+Tanzania,1856,1.3147689,low
+Tanzania,1857,1.3205026,low
+Tanzania,1858,1.3171118,low
+Tanzania,1859,1.2687534,low
+Tanzania,1860,1.3982258,low
+Tanzania,1861,1.397566,low
+Tanzania,1862,1.3873253,low
+Tanzania,1863,1.4162773,low
+Tanzania,1864,1.3950971,low
+Tanzania,1865,1.4106247,low
+Tanzania,1866,1.370752,low
+Tanzania,1867,1.4460089,low
+Tanzania,1868,1.4007684,low
+Tanzania,1869,1.4336947,low
+Tanzania,1870,1.5243801,low
+Tanzania,1871,1.5919511,low
+Tanzania,1872,1.5677128,low
+Tanzania,1873,1.6162174,low
+Tanzania,1874,1.5700313,low
+Tanzania,1875,1.6007217,low
+Tanzania,1876,1.6352684,low
+Tanzania,1877,1.610738,low
+Tanzania,1878,1.6978806,low
+Tanzania,1879,1.6243744,low
+Tanzania,1880,1.6779569,low
+Tanzania,1881,1.7625713,low
+Tanzania,1882,1.7587776,low
+Tanzania,1883,1.8149352,low
+Tanzania,1884,1.8704227,low
+Tanzania,1885,1.9308614,low
+Tanzania,1886,1.8651774,low
+Tanzania,1887,1.8592994,low
+Tanzania,1888,1.8141551,low
+Tanzania,1889,1.7634361,low
+Tanzania,1890,1.8868651,low
+Tanzania,1891,2.0439477,low
+Tanzania,1892,2.0430183,low
+Tanzania,1893,2.0729716,low
+Tanzania,1894,2.1186872,low
+Tanzania,1895,2.3022897,low
+Tanzania,1896,2.2593675,low
+Tanzania,1897,2.2215657,low
+Tanzania,1898,2.1854258,low
+Tanzania,1899,2.3234081,low
+Tanzania,1900,2.4703972,low
+Tanzania,1901,2.78535,low
+Tanzania,1902,2.691417,low
+Tanzania,1903,2.796379,low
+Tanzania,1904,3.005553,low
+Tanzania,1905,2.8318071,low
+Tanzania,1906,2.88349,low
+Tanzania,1907,3.0405352,low
+Tanzania,1908,3.163389,low
+Tanzania,1909,2.9461403,low
+Tanzania,1910,3.2177455,low
+Tanzania,1911,3.4040828,low
+Tanzania,1912,3.5530083,low
+Tanzania,1913,3.7103057,low
+Tanzania,1914,3.7706232,low
+Tanzania,1915,4.0856223,low
+Tanzania,1916,3.9812047,low
+Tanzania,1917,3.8771603,low
+Tanzania,1918,4.1593394,low
+Tanzania,1919,3.94299,low
+Tanzania,1920,4.8096437,low
+Tanzania,1921,4.760786,low
+Tanzania,1922,5.2393656,low
+Tanzania,1923,5.422651,low
+Tanzania,1924,5.259784,low
+Tanzania,1925,5.141558,low
+Tanzania,1926,5.0636663,low
+Tanzania,1927,5.5353227,low
+Tanzania,1928,5.2054267,low
+Tanzania,1929,5.16845,low
+Tanzania,1930,6.483094,low
+Tanzania,1931,7.1261587,low
+Tanzania,1932,7.4705577,low
+Tanzania,1933,7.683275,low
+Tanzania,1934,7.9136786,low
+Tanzania,1935,7.8413725,low
+Tanzania,1936,8.009961,low
+Tanzania,1937,8.004286,low
+Tanzania,1938,7.7666497,low
+Tanzania,1939,8.02411,low
+Tanzania,1940,12.052656,low
+Tanzania,1941,14.502379,low
+Tanzania,1942,15.903077,low
+Tanzania,1943,16.747469,low
+Tanzania,1944,17.069302,low
+Tanzania,1945,17.315193,low
+Tanzania,1946,17.35321,low
+Tanzania,1947,17.230703,low
+Tanzania,1948,17.49172,low
+Tanzania,1949,17.224663,low
+Tanzania,1950,17.320276,low
+Tanzania,1951,14.313041,low
+Tanzania,1952,13.135197,low
+Tanzania,1953,12.8861065,low
+Tanzania,1954,12.82687,low
+Tanzania,1955,13.006292,low
+Tanzania,1956,13.361203,low
+Tanzania,1957,13.311098,low
+Tanzania,1958,13.850334,low
+Tanzania,1959,13.994757,low
+Tanzania,1960,14.933536,low
+Tanzania,1961,10.360421,low
+Tanzania,1962,19.173555,low
+Tanzania,1963,14.321537,low
+Tanzania,1964,10.235301,low
+Tanzania,1965,7.6681056,low
+Tanzania,1966,6.244542,low
+Tanzania,1967,5.369328,low
+Tanzania,1968,4.8286633,low
+Tanzania,1969,13.039407,low
+Tanzania,1970,12.695293,low
+Tanzania,1971,8.604215,low
+Tanzania,1972,6.184278,low
+Tanzania,1973,4.912831,low
+Tanzania,1974,4.126307,low
+Tanzania,1975,3.4279299,low
+Tanzania,1976,2.9817495,low
+Tanzania,1977,9.027835,low
+Tanzania,1978,7.1129866,low
+Tanzania,1979,4.6348214,low
+Tanzania,1980,5.200949,low
+Tanzania,1981,3.716358,low
+Tanzania,1982,2.9410198,low
+Tanzania,1983,2.4301426,low
+Tanzania,1984,7.091621,low
+Tanzania,1985,5.5897036,low
+Tanzania,1986,3.5141957,low
+Tanzania,1987,2.721707,low
+Tanzania,1988,2.1790035,low
+Tanzania,1989,1.8017153,low
+Tanzania,1990,1.9543059,low
+Tanzania,1991,1.2945039,low
+Tanzania,1992,1.6654115,low
+Tanzania,1993,1.7065278,low
+Tanzania,1994,1.7819978,low
+Tanzania,1995,1.9992983,low
+Tanzania,1996,1.7978288,low
+Tanzania,1997,1.8359036,low
+Tanzania,1998,2.3875997,low
+Tanzania,1999,1.8506167,low
+Tanzania,2000,1.6691384,low
+Tanzania,2001,1.4995396,low
+Tanzania,2002,1.9261657,low
+Tanzania,2003,3.8810215,low
+Tanzania,2004,2.997869,low
+Tanzania,2005,2.109668,low
+Tanzania,2006,3.0535717,low
+Tanzania,2007,5.1647754,low
+Tanzania,2008,4.0828753,low
+Tanzania,2009,3.544837,low
+Tanzania,2010,5.2173123,low
+Tanzania,2011,6.289069,low
+Tanzania,2012,4.1014404,low
+Tanzania,2013,2.7137856,low
+Tanzania,2014,2.3992615,low
+Tanzania,2015,1.815489,low
+Tanzania,2016,1.4491252,low
+Tanzania,2017,1.3664705,low
+Tanzania,2018,1.0423216,low
+Tanzania,2019,0.8278153,low
+Tanzania,2020,0.66619647,low
+Tanzania,2021,0.55404025,low
+Tanzania,2022,0.46054593,low
+Laos,1850,6.469471,low
+Laos,1851,5.9492407,low
+Laos,1852,6.621181,low
+Laos,1853,4.973651,low
+Laos,1854,5.73625,low
+Laos,1855,4.3023787,low
+Laos,1856,4.310493,low
+Laos,1857,4.195518,low
+Laos,1858,3.8022008,low
+Laos,1859,3.9473445,low
+Laos,1860,3.2481332,low
+Laos,1861,3.6100998,low
+Laos,1862,3.4484055,low
+Laos,1863,2.6213386,low
+Laos,1864,2.434609,low
+Laos,1865,3.1285782,low
+Laos,1866,3.5889153,low
+Laos,1867,3.643903,low
+Laos,1868,2.7530746,low
+Laos,1869,2.392578,low
+Laos,1870,3.4880538,low
+Laos,1871,4.3699756,low
+Laos,1872,3.7346249,low
+Laos,1873,3.4247324,low
+Laos,1874,3.1223512,low
+Laos,1875,3.0309823,low
+Laos,1876,3.2892618,low
+Laos,1877,3.0970728,low
+Laos,1878,3.5780823,low
+Laos,1879,3.430442,low
+Laos,1880,3.6864395,low
+Laos,1881,4.435783,low
+Laos,1882,5.895164,low
+Laos,1883,6.4701014,low
+Laos,1884,5.708394,low
+Laos,1885,8.338621,low
+Laos,1886,7.1653624,low
+Laos,1887,6.223898,low
+Laos,1888,6.9199996,low
+Laos,1889,6.408636,low
+Laos,1890,6.597729,low
+Laos,1891,5.929751,low
+Laos,1892,5.6129513,low
+Laos,1893,5.0168896,low
+Laos,1894,5.3600483,low
+Laos,1895,5.61511,low
+Laos,1896,5.672981,low
+Laos,1897,6.3763404,low
+Laos,1898,5.955449,low
+Laos,1899,6.7506766,low
+Laos,1900,4.703015,low
+Laos,1901,3.64327,low
+Laos,1902,2.9736998,low
+Laos,1903,3.2020855,low
+Laos,1904,2.5907304,low
+Laos,1905,2.9366302,low
+Laos,1906,2.3730705,low
+Laos,1907,2.8538823,low
+Laos,1908,2.60244,low
+Laos,1909,2.9199033,low
+Laos,1910,2.9928784,low
+Laos,1911,3.3059547,low
+Laos,1912,3.109781,low
+Laos,1913,4.446676,low
+Laos,1914,4.356517,low
+Laos,1915,4.9588137,low
+Laos,1916,4.81047,low
+Laos,1917,4.7140307,low
+Laos,1918,4.8557568,low
+Laos,1919,4.973738,low
+Laos,1920,5.6642833,low
+Laos,1921,9.751132,low
+Laos,1922,10.50062,low
+Laos,1923,10.52885,low
+Laos,1924,11.488342,low
+Laos,1925,12.959963,low
+Laos,1926,14.842634,low
+Laos,1927,15.281676,low
+Laos,1928,13.633272,low
+Laos,1929,16.003857,low
+Laos,1930,18.457,low
+Laos,1931,22.020247,low
+Laos,1932,22.237978,low
+Laos,1933,25.322268,low
+Laos,1934,21.66327,low
+Laos,1935,25.570902,low
+Laos,1936,24.80315,low
+Laos,1937,24.807009,low
+Laos,1938,23.847166,low
+Laos,1939,22.180347,low
+Laos,1940,19.987967,low
+Laos,1941,17.479593,low
+Laos,1942,18.851473,low
+Laos,1943,17.84806,low
+Laos,1944,14.669535,low
+Laos,1945,15.953713,low
+Laos,1946,13.529494,low
+Laos,1947,12.742676,low
+Laos,1948,11.125134,low
+Laos,1949,10.450513,low
+Laos,1950,11.950374,low
+Laos,1951,12.289454,low
+Laos,1952,11.075087,low
+Laos,1953,12.583575,low
+Laos,1954,14.33258,low
+Laos,1955,15.266414,low
+Laos,1956,17.234842,low
+Laos,1957,16.944508,low
+Laos,1958,18.45224,low
+Laos,1959,32.96792,low
+Laos,1960,21.699461,low
+Laos,1961,14.344776,low
+Laos,1962,11.039337,low
+Laos,1963,8.938667,low
+Laos,1964,7.9285793,low
+Laos,1965,8.343597,low
+Laos,1966,7.299011,low
+Laos,1967,7.4892945,low
+Laos,1968,6.650857,low
+Laos,1969,6.5009027,low
+Laos,1970,6.373108,low
+Laos,1971,8.304917,low
+Laos,1972,8.897367,low
+Laos,1973,9.4295225,low
+Laos,1974,9.16161,low
+Laos,1975,8.561658,low
+Laos,1976,7.723011,low
+Laos,1977,7.876057,low
+Laos,1978,6.884849,low
+Laos,1979,5.986581,low
+Laos,1980,5.796519,low
+Laos,1981,5.7741456,low
+Laos,1982,5.2626977,low
+Laos,1983,5.274257,low
+Laos,1984,5.1299324,low
+Laos,1985,4.8051105,low
+Laos,1986,4.7831564,low
+Laos,1987,4.9867015,low
+Laos,1988,4.6566634,low
+Laos,1989,4.368598,low
+Laos,1990,4.1064954,low
+Laos,1991,3.8137453,low
+Laos,1992,3.5670588,low
+Laos,1993,4.417405,low
+Laos,1994,4.2498827,low
+Laos,1995,4.241718,low
+Laos,1996,5.6709,low
+Laos,1997,4.696899,low
+Laos,1998,4.9816055,low
+Laos,1999,5.988295,low
+Laos,2000,8.497214,low
+Laos,2001,8.039026,low
+Laos,2002,8.1758375,low
+Laos,2003,8.733741,low
+Laos,2004,9.773254,low
+Laos,2005,10.059013,low
+Laos,2006,9.379786,low
+Laos,2007,10.2615385,low
+Laos,2008,11.028319,low
+Laos,2009,12.940152,low
+Laos,2010,12.001427,low
+Laos,2011,10.282728,low
+Laos,2012,8.864205,low
+Laos,2013,10.974378,low
+Laos,2014,14.339471,low
+Laos,2015,9.355092,low
+Laos,2016,6.1224203,low
+Laos,2017,8.736121,low
+Laos,2018,7.3616204,low
+Laos,2019,6.881218,low
+Laos,2020,6.4520545,low
+Laos,2021,6.3345923,low
+Laos,2022,6.187159,low
+Democratic Republic of Congo,1850,3.1564748,low
+Democratic Republic of Congo,1851,2.6607232,low
+Democratic Republic of Congo,1852,2.2212527,low
+Democratic Republic of Congo,1853,1.8194188,low
+Democratic Republic of Congo,1854,1.7426718,low
+Democratic Republic of Congo,1855,1.6427275,low
+Democratic Republic of Congo,1856,1.5189551,low
+Democratic Republic of Congo,1857,1.6559387,low
+Democratic Republic of Congo,1858,1.6030904,low
+Democratic Republic of Congo,1859,1.5255898,low
+Democratic Republic of Congo,1860,1.4527055,low
+Democratic Republic of Congo,1861,1.3452467,low
+Democratic Republic of Congo,1862,1.4294837,low
+Democratic Republic of Congo,1863,1.21771,low
+Democratic Republic of Congo,1864,1.3728373,low
+Democratic Republic of Congo,1865,1.5797151,low
+Democratic Republic of Congo,1866,1.5029902,low
+Democratic Republic of Congo,1867,1.6231394,low
+Democratic Republic of Congo,1868,1.2916785,low
+Democratic Republic of Congo,1869,1.3177601,low
+Democratic Republic of Congo,1870,1.3368853,low
+Democratic Republic of Congo,1871,1.386035,low
+Democratic Republic of Congo,1872,1.3826286,low
+Democratic Republic of Congo,1873,1.4914441,low
+Democratic Republic of Congo,1874,1.3642831,low
+Democratic Republic of Congo,1875,1.3787187,low
+Democratic Republic of Congo,1876,1.3672442,low
+Democratic Republic of Congo,1877,1.4719768,low
+Democratic Republic of Congo,1878,1.2671542,low
+Democratic Republic of Congo,1879,1.7354343,low
+Democratic Republic of Congo,1880,1.4892167,low
+Democratic Republic of Congo,1881,1.390658,low
+Democratic Republic of Congo,1882,1.5593835,low
+Democratic Republic of Congo,1883,1.5240345,low
+Democratic Republic of Congo,1884,1.7149154,low
+Democratic Republic of Congo,1885,1.5333041,low
+Democratic Republic of Congo,1886,1.7238321,low
+Democratic Republic of Congo,1887,1.5966666,low
+Democratic Republic of Congo,1888,1.6229801,low
+Democratic Republic of Congo,1889,1.6049702,low
+Democratic Republic of Congo,1890,1.5803998,low
+Democratic Republic of Congo,1891,1.7050557,low
+Democratic Republic of Congo,1892,2.0359526,low
+Democratic Republic of Congo,1893,1.8860105,low
+Democratic Republic of Congo,1894,1.7876612,low
+Democratic Republic of Congo,1895,1.8585142,low
+Democratic Republic of Congo,1896,1.9132481,low
+Democratic Republic of Congo,1897,1.9856724,low
+Democratic Republic of Congo,1898,1.8177091,low
+Democratic Republic of Congo,1899,1.9526427,low
+Democratic Republic of Congo,1900,2.2804472,low
+Democratic Republic of Congo,1901,2.3476143,low
+Democratic Republic of Congo,1902,2.7340624,low
+Democratic Republic of Congo,1903,2.5473387,low
+Democratic Republic of Congo,1904,2.719141,low
+Democratic Republic of Congo,1905,2.7206016,low
+Democratic Republic of Congo,1906,2.533289,low
+Democratic Republic of Congo,1907,2.8451676,low
+Democratic Republic of Congo,1908,2.9925203,low
+Democratic Republic of Congo,1909,2.8252187,low
+Democratic Republic of Congo,1910,3.372992,low
+Democratic Republic of Congo,1911,3.4344203,low
+Democratic Republic of Congo,1912,3.515872,low
+Democratic Republic of Congo,1913,3.8528132,low
+Democratic Republic of Congo,1914,3.7370229,low
+Democratic Republic of Congo,1915,4.063955,low
+Democratic Republic of Congo,1916,3.8282459,low
+Democratic Republic of Congo,1917,3.843064,low
+Democratic Republic of Congo,1918,4.4186563,low
+Democratic Republic of Congo,1919,4.1922946,low
+Democratic Republic of Congo,1920,4.661704,low
+Democratic Republic of Congo,1921,5.235128,low
+Democratic Republic of Congo,1922,5.7576976,low
+Democratic Republic of Congo,1923,5.787052,low
+Democratic Republic of Congo,1924,6.2093043,low
+Democratic Republic of Congo,1925,6.2372346,low
+Democratic Republic of Congo,1926,5.9482102,low
+Democratic Republic of Congo,1927,5.9931316,low
+Democratic Republic of Congo,1928,5.9176555,low
+Democratic Republic of Congo,1929,6.3498406,low
+Democratic Republic of Congo,1930,7.5330276,low
+Democratic Republic of Congo,1931,8.185825,low
+Democratic Republic of Congo,1932,9.001017,low
+Democratic Republic of Congo,1933,9.190376,low
+Democratic Republic of Congo,1934,8.86869,low
+Democratic Republic of Congo,1935,9.772211,low
+Democratic Republic of Congo,1936,9.233487,low
+Democratic Republic of Congo,1937,8.985438,low
+Democratic Republic of Congo,1938,9.159492,low
+Democratic Republic of Congo,1939,9.295357,low
+Democratic Republic of Congo,1940,13.923004,low
+Democratic Republic of Congo,1941,16.951815,low
+Democratic Republic of Congo,1942,19.204742,low
+Democratic Republic of Congo,1943,19.670958,low
+Democratic Republic of Congo,1944,20.449617,low
+Democratic Republic of Congo,1945,20.522268,low
+Democratic Republic of Congo,1946,20.040634,low
+Democratic Republic of Congo,1947,20.879356,low
+Democratic Republic of Congo,1948,20.868795,low
+Democratic Republic of Congo,1949,20.726027,low
+Democratic Republic of Congo,1950,22.496851,low
+Democratic Republic of Congo,1951,23.302053,low
+Democratic Republic of Congo,1952,24.544014,low
+Democratic Republic of Congo,1953,25.622705,low
+Democratic Republic of Congo,1954,26.571133,low
+Democratic Republic of Congo,1955,27.359959,low
+Democratic Republic of Congo,1956,28.020985,low
+Democratic Republic of Congo,1957,29.298954,low
+Democratic Republic of Congo,1958,30.383034,low
+Democratic Republic of Congo,1959,30.510666,low
+Democratic Republic of Congo,1960,37.939713,low
+Democratic Republic of Congo,1961,24.911976,low
+Democratic Republic of Congo,1962,18.601782,low
+Democratic Republic of Congo,1963,13.1588545,low
+Democratic Republic of Congo,1964,10.054282,low
+Democratic Republic of Congo,1965,8.162369,low
+Democratic Republic of Congo,1966,7.040518,low
+Democratic Republic of Congo,1967,6.546704,low
+Democratic Republic of Congo,1968,6.015958,low
+Democratic Republic of Congo,1969,5.561359,low
+Democratic Republic of Congo,1970,5.5101576,low
+Democratic Republic of Congo,1971,5.279371,low
+Democratic Republic of Congo,1972,4.9956226,low
+Democratic Republic of Congo,1973,4.734931,low
+Democratic Republic of Congo,1974,3.8733923,low
+Democratic Republic of Congo,1975,3.9035838,low
+Democratic Republic of Congo,1976,3.6275327,low
+Democratic Republic of Congo,1977,3.350705,low
+Democratic Republic of Congo,1978,3.0054646,low
+Democratic Republic of Congo,1979,3.2271595,low
+Democratic Republic of Congo,1980,3.32733,low
+Democratic Republic of Congo,1981,3.078785,low
+Democratic Republic of Congo,1982,2.9671366,low
+Democratic Republic of Congo,1983,3.1511593,low
+Democratic Republic of Congo,1984,3.1332557,low
+Democratic Republic of Congo,1985,3.248171,low
+Democratic Republic of Congo,1986,2.7550678,low
+Democratic Republic of Congo,1987,2.5018296,low
+Democratic Republic of Congo,1988,2.3402812,low
+Democratic Republic of Congo,1989,2.3313806,low
+Democratic Republic of Congo,1990,2.3442872,low
+Democratic Republic of Congo,1991,2.344983,low
+Democratic Republic of Congo,1992,2.2448058,low
+Democratic Republic of Congo,1993,2.8473103,low
+Democratic Republic of Congo,1994,2.7679775,low
+Democratic Republic of Congo,1995,2.7455282,low
+Democratic Republic of Congo,1996,2.7331114,low
+Democratic Republic of Congo,1997,3.679808,low
+Democratic Republic of Congo,1998,3.6910255,low
+Democratic Republic of Congo,1999,3.8416855,low
+Democratic Republic of Congo,2000,3.596461,low
+Democratic Republic of Congo,2001,2.9392715,low
+Democratic Republic of Congo,2002,2.6375582,low
+Democratic Republic of Congo,2003,3.0558481,low
+Democratic Republic of Congo,2004,2.4673495,low
+Democratic Republic of Congo,2005,2.3526418,low
+Democratic Republic of Congo,2006,2.4403899,low
+Democratic Republic of Congo,2007,2.488778,low
+Democratic Republic of Congo,2008,7.285141,low
+Democratic Republic of Congo,2009,11.400461,low
+Democratic Republic of Congo,2010,13.1190405,low
+Democratic Republic of Congo,2011,14.729368,low
+Democratic Republic of Congo,2012,13.282046,low
+Democratic Republic of Congo,2013,13.218788,low
+Democratic Republic of Congo,2014,10.347753,low
+Democratic Republic of Congo,2015,7.8970184,low
+Democratic Republic of Congo,2016,8.033825,low
+Democratic Republic of Congo,2017,7.8542576,low
+Democratic Republic of Congo,2018,6.162173,low
+Democratic Republic of Congo,2019,4.20889,low
+Democratic Republic of Congo,2020,5.3319736,low
+Democratic Republic of Congo,2021,5.804128,low
+Democratic Republic of Congo,2022,5.1754007,low

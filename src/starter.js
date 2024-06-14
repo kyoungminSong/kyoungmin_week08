@@ -21,7 +21,10 @@ let xAxis;
 let yAxis;
 let location;
 
-d3.csv("data/final_data.csv") //데이터 불러오기
+let lowSelected = false;
+let highSelected = false;
+
+d3.csv("data/final_data_update.csv") //데이터 불러오기
   .then((raw_data) => {
     // console.log(raw_data);
     data = raw_data.map((d) => {
@@ -60,8 +63,8 @@ d3.csv("data/final_data.csv") //데이터 불러오기
 
     const colorScale = d3
       .scaleSequential()
-      // .domain([d3.extent])
-      .domain([0, 2000000])
+      .range([d3.extent])
+      .domain([0, 30])
       .interpolator(d3.interpolateGnBu);
 
     const xLegendScale = d3
@@ -120,16 +123,16 @@ d3.csv("data/final_data.csv") //데이터 불러오기
       .attr("height", 20)
       .attr("fill", (d) => colorScale(d));
 
-    legendLabels = svg
-      .selectAll("legend-labels")
-      .data(legendData)
-      .enter()
-      .append("text")
-      .attr("x", (d, i) => xLegendScale(i) + xLegendScale.bandwidth() / 2) //텍스트가 중앙에 오도록
-      .attr("y", height - margin.bottom + 75)
-      .text((d) => d3.format("~s")(d))
-      .attr("class", "legend-labels")
-      .style("fill", (d) => (d >= 16.0 ? "lightgray" : "black")); // 0.5보다 작으면 텍스트 흰색으로
+    // legendLabels = svg
+    //   .selectAll("legend-labels")
+    //   .data(legendData)
+    //   .enter()
+    //   .append("text")
+    //   .attr("x", (d, i) => xLegendScale(i) + xLegendScale.bandwidth() / 2) //텍스트가 중앙에 오도록
+    //   .attr("y", height - margin.bottom + 75)
+    //   .text((d) => d3.format("~s")(d))
+    //   .attr("class", "legend-labels")
+    //   .style("fill", (d) => (d >= 16.0 ? "lightgray" : "black")); // 0.5보다 작으면 텍스트 흰색으로
 
     // unit //
     unit = svg
@@ -139,6 +142,47 @@ d3.csv("data/final_data.csv") //데이터 불러오기
       .attr("y", height - margin.bottom + 75)
       .attr("fill", "gray")
       .attr("class", "legend-labels");
+
+    //Button//
+
+    //1.low-income//
+    d3.select("#button-low").on("click", () => {
+      lowSelected = !lowSelected;
+      highSelected = false;
+
+      d3.select("#text-desc").text("Low-income countries selected");
+
+      d3.select("#button-low").classed("button-clicked", lowSelected);
+      d3.select("#button-high").classed("button-clicked", false);
+
+      circles.attr("fill", (d) => {
+        if (lowSelected) {
+          return d.location == "Canada" ? colorScale(d) : "rgba(0,0,0,0.1)";
+        } else {
+          return colorScale(d);
+        }
+      });
+    });
+
+    //2.high//
+    d3.select("#button-high").on("click", () => {
+      highSelected = !highSelected;
+      lowSelected = false;
+
+      d3.select("#text-desc").text("High-income countries selected");
+
+      d3.select("#button-high").classed("button-clicked", highSelected);
+      d3.select("#button-low").classed("button-clicked", false);
+
+      circles.attr("fill", (d) => {
+        if (highSelected) {
+          return d.location == "Laos" ? colorScale(d) : "rgba(0,0,0,0.1)";
+        } else {
+          return colorScale(d);
+        }
+      });
+      s;
+    });
 
     ///mouseover//
     // const tooltip = d3
