@@ -155,11 +155,11 @@ d3.csv("data/final_data_update.csv") //데이터 불러오기
       d3.select("#button-low").classed("button-clicked", lowSelected);
       d3.select("#button-high").classed("button-clicked", false);
 
-      circles.attr("fill", (d) => {
+      rects.attr("fill", (d) => {
         if (lowSelected) {
-          return d.location == "Canada" ? colorScale(d) : "rgba(0,0,0,0.1)";
+          return d.group == "low" ? colorScale(d.emissions) : "rgba(0,0,0,0.1)";
         } else {
-          return colorScale(d);
+          return colorScale(d.emissions);
         }
       });
     });
@@ -174,11 +174,13 @@ d3.csv("data/final_data_update.csv") //데이터 불러오기
       d3.select("#button-high").classed("button-clicked", highSelected);
       d3.select("#button-low").classed("button-clicked", false);
 
-      circles.attr("fill", (d) => {
+      rects.attr("fill", (d) => {
         if (highSelected) {
-          return d.location == "Laos" ? colorScale(d) : "rgba(0,0,0,0.1)";
+          return d.group == "high"
+            ? colorScale(d.emissions)
+            : "rgba(0,0,0,0.1)";
         } else {
-          return colorScale(d);
+          return colorScale(d.emissions);
         }
       });
       s;

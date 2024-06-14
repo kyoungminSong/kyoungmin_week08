@@ -70,18 +70,19 @@
 
 .button-container button {
   cursor: pointer;
-  border: 1px solid black;
-  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid gray;
+  background-color: rgba(41, 41, 41, 0);
   border-radius: 3px;
 }
 
 #text-desc {
-  font-size: 18px;
+  font-size: 12px;
   text-transform: capitalize;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
   text-align: center;
+  color: gray;
   /* border: 1px solid red; */
 }
 
@@ -90,7 +91,7 @@
 } */
 
 .button-clicked {
-  background-color: #111 !important;
+  background-color: rgba(41, 41, 41, 0) !important;
   color: #fff;
 }
 /* .button-released {
