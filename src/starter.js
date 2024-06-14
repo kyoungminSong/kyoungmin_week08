@@ -53,13 +53,13 @@ d3.csv("data/final_data_update.csv") //데이터 불러오기
     const xScale = d3
       .scaleBand()
       .range([margin.left, width - margin.right])
-      .paddingInner(0.1); //바 차트 사이의 간격
+      .paddingInner(0.1);
 
     const yScale = d3
       .scaleBand()
       .domain(location)
       .range([height - margin.bottom, 0])
-      .padding(0.15); //바 차트 사이의 간격
+      .padding(0.15);
 
     const colorScale = d3
       .scaleSequential()
